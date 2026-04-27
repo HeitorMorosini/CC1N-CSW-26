@@ -1,0 +1,18 @@
+.classe1{
+    a:hover{
+        color: black;
+    }
+
+    a::after{
+        content: '♬*';
+    }
+
+    
+    a::before{
+        content: '*';
+    }
+}
+
+
+
+
