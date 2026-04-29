@@ -1,18 +1,4 @@
-.classe1{
-    a:hover{
-        color: black;
-    }
-
-    a::after{
-        content: '♬*';
-    }
-
-    
-    a::before{
-        content: '*';
-    }
+:root{
+    --primary-bg-color: #1e90ff;
+    --primary-color: #ffffff;
 }
-
-
-
-
