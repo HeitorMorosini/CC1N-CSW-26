@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.item1 {
+    background: red;
+}
+
+.item2 {
+    background: blue;
+}
+
+.item3 {
+    background: green;
+}
+
+.item:hover{
+    border-bottom: 3px solid black;
+    background: gold;
+}
+
+.item4 {
+    flex-grow: 1;
+    padding: 20px;
+    background: gray;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.destaque { 
+    flex-grow: 2;
+    background: orange;
+}
+
+.item4:active {
+    background: purple;
+}
