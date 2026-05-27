@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <h1>Calculadora de idade</h1>
+    <div id="container">
+        <label for="anoInput">Ano de nascimento: </label>
+        <input id="inputAno" type="text" placeholder="Digite sua data de nascimento">
+        <button onclick="calcular()"> Calcular </button>
+    </div>
+
+    <div id="containerAno">
+
+    </div>
+    <hr>
+    <br><br>
+    <hr>
+
+    <div id="container2">
+        <label for="anoInput">Ano de nascimento: </label>
+        <input id="inputDia2" type="number" min="1">
+        <select name="mes" id="inputMes2">
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
+        <label for="Ano"></label>
+        <input type="number" name="ano" id="Ano" min="1900">
+        <div style="display: flex; flex: auto; justify-content: center;">
+            <button>Calcular</button>
+        </div>
+    </div>
+
+
+    
+    <div id="containerAno2">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
